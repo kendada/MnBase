@@ -18,6 +18,7 @@ import android.util.Log;
  * Date: 2015-08-17
  * Time: 20:31
  * Version 1.0
+ * 所有Activity的基类
  */
 
 public class BaseActivity extends AppCompatActivity implements IBaseActivity {
