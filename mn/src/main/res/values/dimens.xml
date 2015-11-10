@@ -1,0 +1,7 @@
+<resources>
+    <!-- 九宫格图片布局 -->
+    <dimen name="gap_pics">4sp</dimen>
+    <dimen name="comm_h_gap">10dip</dimen>
+
+
+</resources>

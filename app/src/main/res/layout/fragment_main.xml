@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.mn.widget.StateFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:msv_emptyView="@layout/state_empty"
+    app:msv_loadingView="@layout/state_loading"
+    app:msv_errorView="@layout/state_error"
+    app:msv_viewState="content"
+    android:id="@+id/state_frame_layout"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    >
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:listSelector="#00000000"
+        />
+</cc.mn.widget.StateFrameLayout>

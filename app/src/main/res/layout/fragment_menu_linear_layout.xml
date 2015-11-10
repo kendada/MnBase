@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.mnbase.view.list.menu.MenuLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:text="测试选项"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@color/dividerColor"
+            android:textColor="@color/text"
+            android:gravity="center"
+            android:text="置顶"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@color/item_tab_bg"
+            android:textColor="@color/text"
+            android:gravity="center"
+            android:text="删除"
+            />
+    </LinearLayout>
+
+</cc.mnbase.view.list.menu.MenuLinearLayout>
