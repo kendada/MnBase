@@ -32,6 +32,8 @@ public class MainAdapter extends BaseAdapter {
 
     private int pw = 480;
 
+    private String tag = MainAdapter.class.getSimpleName();
+
     public MainAdapter(Context context, List<Girl> list) {
         mContext = context;
         mList = list;

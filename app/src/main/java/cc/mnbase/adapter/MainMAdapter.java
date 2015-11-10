@@ -27,6 +27,8 @@ public class MainMAdapter extends BaseAdapter {
     private Context mContext = null;
     private List<String> mList = null;
 
+    private String tag = MainMAdapter.class.getSimpleName();
+
     public MainMAdapter(Context context, List<String> list) {
         mContext = context;
         mList = list;
