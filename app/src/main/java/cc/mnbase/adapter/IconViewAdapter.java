@@ -12,7 +12,7 @@ import cc.mnbase.R;
 import cc.mnbase.view.comment.CommentIconView;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-10-26
  * Time: 16:03
  * Version 1.0
