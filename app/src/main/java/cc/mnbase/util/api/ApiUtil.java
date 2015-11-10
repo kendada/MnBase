@@ -9,7 +9,7 @@ import java.util.Date;
 import cc.mnbase.util.MnDateUtil;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-08-17
  * Time: 21:14
  * Version 1.0

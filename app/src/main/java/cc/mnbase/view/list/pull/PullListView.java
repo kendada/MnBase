@@ -13,7 +13,6 @@ import android.widget.ListView;
 import cc.mnbase.R;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
  * Date: 2015-10-21
  * Time: 14:18
  * Version 1.0

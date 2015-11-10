@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import cc.mnbase.R;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-10-20
  * Time: 09:44
  * Version 1.0

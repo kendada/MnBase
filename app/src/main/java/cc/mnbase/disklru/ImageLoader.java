@@ -26,7 +26,7 @@ import cc.mnbase.disklru.libcore.io.DiskLruCache;
 import cc.mnbase.image.FileUtils;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-10-23
  * Time: 14:57
  * Version 1.0

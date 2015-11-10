@@ -23,7 +23,7 @@ import java.util.Date;
 import cc.mnbase.R;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-10-21
  * Time: 22:45
  * Version 1.0

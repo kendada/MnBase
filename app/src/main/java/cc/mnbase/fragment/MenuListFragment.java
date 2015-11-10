@@ -18,7 +18,7 @@ import cc.mnbase.adapter.MainMAdapter;
 import cc.mnbase.view.list.menu.MenuListView;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-10-19
  * Time: 15:25
  * Version 1.0

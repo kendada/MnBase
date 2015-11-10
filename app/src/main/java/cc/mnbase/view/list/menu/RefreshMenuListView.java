@@ -7,7 +7,7 @@ import android.widget.ListView;
 import cc.mnbase.view.list.basepull.RefreshAdaterView;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-10-22
  * Time: 09:54
  * Version 1.0

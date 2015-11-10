@@ -23,7 +23,7 @@ import cc.mnbase.util.api.ApiUtil;
 import cc.mnbase.util.json.JsonUtil;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-08-17
  * Time: 20:51
  * Version 1.0

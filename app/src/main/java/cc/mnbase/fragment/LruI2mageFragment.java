@@ -15,7 +15,7 @@ import cc.mnbase.image.ImageLoader;
 import cc.mnbase.util.ImageConfigBuilder;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-10-22
  * Time: 10:16
  * Version 1.0

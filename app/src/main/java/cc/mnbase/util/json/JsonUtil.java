@@ -9,7 +9,7 @@ import java.util.List;
 import cc.mnbase.model.Girl;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-08-17
  * Time: 21:53
  * Version 1.0

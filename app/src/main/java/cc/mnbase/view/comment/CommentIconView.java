@@ -26,7 +26,7 @@ import cc.mnbase.fragment.comm.ImageConfigBuilder;
 import cc.mnbase.fragment.comm.SImageLoadingListener;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-10-26
  * Time: 09:47
  * Version 1.0

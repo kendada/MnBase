@@ -17,7 +17,7 @@ import cc.mnbase.view.list.basepull.RefreshLayoutBase;
 import cc.mnbase.view.list.menu.RefreshMenuListView;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-10-21
  * Time: 15:13
  * Version 1.0

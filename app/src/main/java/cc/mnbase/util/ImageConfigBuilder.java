@@ -4,7 +4,7 @@ import cc.mnbase.R;
 import cc.mnbase.image.DisplayImageOptions;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-10-22
  * Time: 23:24
  * Version 1.0

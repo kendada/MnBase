@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-10-20
  * Time: 09:30
  * Version 1.0

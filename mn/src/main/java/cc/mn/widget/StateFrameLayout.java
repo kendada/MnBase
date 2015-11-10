@@ -16,7 +16,7 @@ import java.lang.annotation.RetentionPolicy;
 import cc.mn.R;
 
 /**
- * User: 靳世坤(1203596603@qq.com)
+ * User: (1203596603@qq.com)
  * Date: 2015-08-17
  * Time: 15:38
  * Version 1.0
