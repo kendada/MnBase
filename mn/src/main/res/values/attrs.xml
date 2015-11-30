@@ -24,4 +24,17 @@
         <attr name="android:scaleType" />
     </declare-styleable>
 
+    <declare-styleable name="TabLayoutStyleable">
+        <attr name="tabChecked" format="boolean" />
+        <attr name="tabTitle" format="string" />
+        <attr name="tabTitleSize" format="dimension" />
+        <attr name="tabTitleColor" format="color" />
+        <attr name="tabIcon" format="reference" />
+        <attr name="tabIconOver" format="reference" />
+        <attr name="tabLableColor" format="color" />
+        <attr name="tabLableText" format="string" />
+        <attr name="tabLableTextSize" format="dimension" />
+        <attr name="tabLablebackground" format="color"/>
+    </declare-styleable>
+
 </resources>

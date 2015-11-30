@@ -11,6 +11,7 @@
     <color name="dividerColor">#B6B6B6</color>
 
     <color name="item_tab_bg">#e91e63</color>
+    <color name="tab_bg_green">#45C01A</color>
 
     <!--覆盖颜色-->
     <color name="bgColor_overlay">#60000000</color>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.mnbase.view.test.MyLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="测试"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:text="测试"
+        />
+
+</cc.mnbase.view.test.MyLinearLayout>
