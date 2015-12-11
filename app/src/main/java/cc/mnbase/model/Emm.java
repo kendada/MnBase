@@ -12,8 +12,6 @@ import android.os.Parcelable;
 
 public class Emm implements Parcelable{
 
-    private static final long serialVersionUID = 1L;
-
     private String id;
     private String title;
     private String litpic;

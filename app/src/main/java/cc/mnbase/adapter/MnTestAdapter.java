@@ -27,6 +27,8 @@ public class MnTestAdapter extends MnBaseAdapter<Girl> {
 
     private int pw = 480;
 
+    private String tag = MnTestAdapter.class.getSimpleName();
+
     public MnTestAdapter(Context context, List<Girl> datas) {
         super(context, datas);
         int margin = context.getResources().getDimensionPixelSize(R.dimen.activity_horizontal_margin);
@@ -35,11 +37,13 @@ public class MnTestAdapter extends MnBaseAdapter<Girl> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        AdapterHolder viewHolder = AdapterHolder.get(position, convertView, parent, R.layout.adapter_main);
+        AdapterHolder viewHolder = AdapterHolder.get(position, convertView, parent, R.layout.adapter_swipe_card2);
         ImageView img = viewHolder.getView(R.id.img);
         TextView text = viewHolder.getView(R.id.text);
         img.setMinimumHeight(pw);
         img.setMinimumWidth(pw);
+        img.setMaxHeight(pw);
+        img.setMaxWidth(pw);
         Girl girl = mDatas.get(position);
         if(girl!=null){
             Picasso.with(mContext).load(girl.getAvatarUrl()).resize(pw, pw).centerCrop().into(img);

@@ -13,10 +13,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
-        android:name=".BaseApplication"
+        android:name=".activity.BaseApplication"
         >
         <activity
-            android:name=".WeiXinTabActivity"
+            android:name=".activity.MNCameraActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +24,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".activity.SwipeBack1Activity" android:theme="@style/translucent" />
+        <activity android:name=".activity.SwipeBack2Activity" android:theme="@style/translucent" />
+        <activity android:name=".activity.SwipeBack3Activity" android:theme="@style/translucent" />
+        <activity android:name=".activity.SwipeBack4Activity" android:theme="@style/translucent" />
+
+        <activity android:name="com.andview.example.activity.CustomViewActivity" />
+        <activity android:name="com.andview.example.activity.GridViewActivity" />
+        <activity android:name="com.andview.example.activity.ListViewActivity" />
+        <activity android:name="com.andview.example.activity.WebViewActivity" />
+        <activity android:name="com.andview.example.activity.RecyclerViewActivity" />
+        <activity android:name="com.andview.example.activity.ScrollViewActivity" />
+        <activity android:name="com.andview.example.activity.HeadAdActivity" />
+        <activity android:name="com.andview.example.activity.RainDropActivity" />
+
     </application>
 
 </manifest>

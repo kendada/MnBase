@@ -1,6 +1,7 @@
 package cc.mnbase.fragment;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +9,9 @@ import android.widget.AbsListView;
 import android.widget.Button;
 import android.widget.GridView;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.google.gson.stream.JsonReader;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.TextHttpResponseHandler;
 
@@ -15,6 +19,8 @@ import org.apache.http.Header;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.StringReader;
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,6 +47,8 @@ public class LruImageFragment extends BaseFragment {
     private int p = 1;
 
     private boolean loading = false;
+
+    private String tag = LruImageFragment.class.getSimpleName();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -101,7 +109,8 @@ public class LruImageFragment extends BaseFragment {
 
             @Override
             public void onSuccess(int i, Header[] headers, String s) {
-                list = listEmm(s);
+                //    list = listEmm(s);
+                list = emms(s);
                 adapter = new WaterPullAdapter(gridView, list);
                 gridView.setAdapter(adapter);
                 p++;
@@ -125,7 +134,8 @@ public class LruImageFragment extends BaseFragment {
 
             @Override
             public void onSuccess(int i, Header[] headers, String s) {
-                List<Emm> more = listEmm(s);
+                //    List<Emm> more = listEmm(s);
+                List<Emm> more = emms(s);
                 list.addAll(more);
                 adapter.notifyDataSetChanged();
                 p++;
@@ -136,6 +146,38 @@ public class LruImageFragment extends BaseFragment {
                 loading = false;
             }
         });
+    }
+
+    private List<Emm> emms(String json){
+        List<Emm> list = null;
+        try{
+            Gson gson = new Gson();
+            Type type = new TypeToken<List<Emm>>(){}.getType();
+            list = gson.fromJson(json, type);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        return list;
+    }
+
+    private List<Emm> emmList(String json){
+        List<Emm> list = null;
+        try{
+            JsonReader jsonReader = new JsonReader(new StringReader(json));
+            jsonReader.beginArray();
+            while(jsonReader.hasNext()){
+                jsonReader.beginObject();
+                while (jsonReader.hasNext()){
+                    String tagName = jsonReader.nextName();
+                    Log.i(tag, "----"+tagName);
+                }
+                jsonReader.endObject();
+            }
+            jsonReader.endArray();
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        return list;
     }
 
     private List<Emm> listEmm(String json){

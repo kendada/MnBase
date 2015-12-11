@@ -4,6 +4,24 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string name="clear_data">恢复数据</string>
+    <string name="click_to_refresh">点击刷新</string>
+
+    <string name="xrefreshview_header_hint_normal">下拉刷新</string>
+    <string name="xrefreshview_header_hint_ready">松开刷新数据</string>
+    <string name="xrefreshview_header_hint_refreshing">正在刷新</string>
+    <string name="xrefreshview_header_hint_loading">正在加载...</string>
+    <string name="xrefreshview_header_hint_loaded">加载完成</string>
+    <string name="xrefreshview_header_last_time">上次更新时间：</string>
+    <string name="xrefreshview_footer_hint_normal">加载完成</string>
+    <string name="xrefreshview_footer_hint_complete">已无更多数据</string>
+    <string name="xrefreshview_footer_hint_click">点击加载更多</string>
+    <string name="xrefreshview_footer_hint_ready">松开载入更多</string>
+    <string name="xrefreshview_never_refresh">从未刷新</string>
+    <string name="xrefreshview_refresh_justnow">刚刚刷新</string>
+    <string name="xrefreshview_refresh_minutes_ago">%1s分钟之前刷新</string>
+    <string name="xrefreshview_refresh_hours_ago">%1s小时之前刷新</string>
+    <string name="xrefreshview_refresh_days_ago">%1s天之前刷新</string>
 
     <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
     <string name="pull_to_refresh_pull_label" translatable="false">下拉刷新</string>
@@ -12,5 +30,33 @@
     <string name="pull_to_refresh_update_time_label" translatable="false">上次更新时间 </string>
     <string name="pull_to_refresh_load_label" translatable="false">上拉加载更多</string>
     <string name="load_mode_label" translatable="false">加载更多</string>
+
+    <string name="test">秋韵婉婉而入，候鸟的歌儿唱着千回百转，秋风吹起落叶演绎着另一类繁华，这是大自然自己的剧院，绿色和黄色环绕出生命的从头至此，夕阳西下后的流云晚霞，再次把秋韵着色，层林间最美的还是这一刻的橘黄。
+
+凉意已是深深，才是菊花盛开的时日，山腰树脚常常会看到菊花，常常想，菊花的花瓣是所有花里面最多的，或许是因为这些季节的凉薄吧。
+
+秋，多感的季节，常常驻足在秋风里，回忆一些岁月。
+
+年华的轻舟驶过心河，荡漾着从童年至今的歌谣，一曲曲，一遍遍，敲打心音渺渺。秋风拂面，落叶沙沙中，静静的倾听着，回想着，默默珍存过往的温馨和温暖，一个温婉橘色如秋的旧梦，摇曳在时光里。
+
+夏是个时光煮雨的季节，那些时光，是摇曳在心里的水墨，而人生里，总会有一次心雨滑落在夏日黑夜的窗棂，就如那颗流星。该用文字去记录那些拥有花香娇媚的日子，留给某一天去珍藏，去观读，去品味，去感怀，和我们自己诉说，那些涩涩的心曲！
+
+那些美丽的文字，是秋风里橘红而多感的灵魂，彷如从大漠风沙里探寻返回，于是岁月就有了干涸的痕迹，而这些，在秋风中烙印风干，搁浅在婉转的歌声里，可以被优美传唱，湛蓝湛蓝的天空见证，流云亦传情。
+
+夏日彩蝶芬芳的记忆是镶嵌在秋天的枫叶里吗，一片片的摇曳在树的枝头，以静美的姿态回归于大地，彷如一瞬间，成为永恒；低回后又离去的燕儿，在一夜间便不再有徘徊在檐下的身影；只有雏菊的娇艳是另一番光景。谁能理解这些心灵，是否，也感叹时光匆匆。而我，多想留住这些感动，守护着这些匆忙的影子，用笔墨生花微澜的心旅，律动出生命的烟火。
+
+于这样的秋风里，又常常感叹：人生如梦，梦里梦外的静好，愿如静美的秋叶。风有风的梦想，树有树的使命，叶有叶的静美，就让自然给我们一曲美丽的秋色，心念在美好的心灵里淡淡的欢颜成季节的收获。
+
+与这样一个深秋，冲一盏茶，茶香温润，沁人心脾，一缕缕的如茶情思，回忆夏日芬芳的记忆，尘世的烟火已然在指尖婉约成诗行，清寂的时光也渲染成文字在指尖流淌，唯美年华如水！一杯香茗，氤氲秋色茶香，简约心绪，诉繁华落寞几许，滴滴秋雨轻敲，季节的足迹。
+
+叶落秋思，人生百味，叶色越浓，秋味越浓，情感的菊黄家酿就越发的感触深深，走过路过秋色里的的晨风暮鼓，敲打时光里经年的心窗，婉转情怀漫落，纵有低眉的思念，打湿几多痕迹的唯美，怀一颗温婉清洁的灵魂，踏过季节的河流，走过繁华喧嚣，尘埃落季。
+
+年华在指缝间轻轻的滑落了大半，无论感不感慨，我们又在年轮里加了轮廓，岁月从不静止，但是轮回着，一次次的迈着稳稳的步调，不差分毫，不曾改变，而能让我们觉得变化的是彼时与此时的心情。
+
+秋色，由远及近看去，秋黄罗列成暖色的温情灼灼，就如一缕阳被秋风吹落倾洒在满山遍野，心中便是开出一朵朵的花来，与这样的景色映衬着，生命里可以有那样的花儿开满四季，就是赏景时快乐的心情。
+
+阅读能让我们穿越历史，感知那些我们未曾经历又可以用灵魂触摸得到的东西，就如那些果实，一定也能封存花的快乐雨的情怀和风的温润。总有一些时候，喜欢把这些事物联系在一起，用一根感情的线穿织，心存一份遇见。
+
+秋是有喜有忧的季节：喜多是收获，忧的又是什么呢，是万物萧索吗，而我喜欢的一句话是：秋收冬藏，收获生命的色彩，在尘埃落定后用文字深藏吧。</string>
 
 </resources>
