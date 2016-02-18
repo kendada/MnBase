@@ -12,6 +12,9 @@ import com.nostra13.universalimageloader.utils.StorageUtils;
 
 import java.io.File;
 
+import cc.mnbase.crash.MnAppContext;
+import cc.mnbase.crash.ui.CrashActivity;
+
 
 public class BaseApplication extends Application {
 
@@ -20,7 +23,7 @@ public class BaseApplication extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-
+		MnAppContext.initialize(this, CrashActivity.class);
 		instance = this;
 		initImageLoader(getApplicationContext());
 	}

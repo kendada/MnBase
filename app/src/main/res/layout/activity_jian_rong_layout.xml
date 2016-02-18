@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="480px"
+            android:layout_height="59px"
+            android:background="@mipmap/toobar_bg"
+            android:id="@+id/f_toobar"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="11px"
+            android:paddingTop="11px"
+            android:paddingRight="11px"
+            android:paddingBottom="11px"
+            android:textSize="20px"
+            android:id="@+id/text"
+            android:text="测试测试。。。。"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5px"
+            >
+            <Button
+                android:layout_width="169px"
+                android:layout_height="48px"
+                android:background="@mipmap/l_r_btn_bg"
+                android:id="@+id/left_btn"
+                android:textColor="@color/text"
+                android:text="登录"
+                android:textSize="20px"
+                android:layout_marginRight="10px"
+                />
+            <Button
+                android:layout_width="169px"
+                android:layout_height="48px"
+                android:layout_toRightOf="@id/left_btn"
+                android:background="@mipmap/l_r_btn_bg"
+                android:id="@+id/right_btn"
+                android:textColor="@color/text"
+                android:text="注册"
+                android:textSize="20px"
+                />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="440px"
+            android:layout_height="293px"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/tu466"
+            />
+    </LinearLayout>
+</ScrollView>
